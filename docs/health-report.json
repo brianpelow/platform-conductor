@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-04-18T04:59:21.016640+00:00",
+  "date": "2026-04-18",
+  "platform_score": 97,
+  "healthy_repos": 15,
+  "failed_repos": 0,
+  "total_repos": 15,
+  "failures": [],
+  "issues_opened": 0,
+  "repos": [
+    {
+      "repo": "repoforge",
+      "score": 80,
+      "status": "healthy",
+      "agent_ok": false,
+      "ci_ok": true
+    },
+    {
+      "repo": "pr-autopilot",
+      "score": 100,
+      "status": "healthy",
+      "agent_ok": true,
+      "ci_ok": true
+    },
+    {
+      "repo": "runbook-gen",
+      "score": 100,
+      "status": "healthy",
+      "agent_ok": true,
+      "ci_ok": true
+    },
+    {
+      "repo": "mcp-incident-intel",
+      "score": 100,
+      "status": "healthy",
+      "agent_ok": true,
+      "ci_ok": true
+    },
+    {
+      "repo": "mcp-compliance-grc",
+      "score": 100,
+      "status": "healthy",
+      "agent_ok": true,
+      "ci_ok": true
+    },
+    {
+      "repo": "mcp-developer-portal",
+      "score": 100,
+      "status": "healthy",
+      "agent_ok": true,
+      "ci_ok": true
+    },
+    {
+      "repo": "TeamHealthRadar",
+      "score": 100,
+      "status": "healthy",
+      "agent_ok": true,
+      "ci_ok": true
+    },
+    {
+      "repo": "PlatformSLOBoard",
+      "score": 100,
+      "status": "healthy",
+      "agent_ok": true,
+      "ci_ok": true
+    },
+    {
+      "repo": "TechDebtLedger",
+      "score": 100,
+      "status": "healthy",
+      "agent_ok": true,
+      "ci_ok": true
+    },
+    {
+      "repo": "IncidentPilot",
+      "score": 100,
+      "status": "healthy",
+      "agent_ok": true,
+      "ci_ok": true
+    },
+    {
+      "repo": "DataPipelineAgent",
+      "score": 100,
+      "status": "healthy",
+      "agent_ok": true,
+      "ci_ok": true
+    },
+    {
+      "repo": "BoardroomBrief",
+      "score": 80,
+      "status": "healthy",
+      "agent_ok": false,
+      "ci_ok": true
+    },
+    {
+      "repo": "innersource-scorecard",
+      "score": 100,
+      "status": "healthy",
+      "agent_ok": true,
+      "ci_ok": true
+    },
+    {
+      "repo": "service-catalog-sync",
+      "score": 100,
+      "status": "healthy",
+      "agent_ok": true,
+      "ci_ok": true
+    },
+    {
+      "repo": "platform-maturity-model",
+      "score": 100,
+      "status": "healthy",
+      "agent_ok": true,
+      "ci_ok": true
+    }
+  ]
+}
