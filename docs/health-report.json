@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-20T05:30:34.372688+00:00",
-  "date": "2026-04-20",
-  "platform_score": 97,
+  "generated_at": "2026-04-21T05:17:41.466832+00:00",
+  "date": "2026-04-21",
+  "platform_score": 98,
   "healthy_repos": 15,
   "failed_repos": 0,
   "total_repos": 15,
@@ -87,9 +87,9 @@
     },
     {
       "repo": "BoardroomBrief",
-      "score": 80,
+      "score": 100,
       "status": "healthy",
-      "agent_ok": false,
+      "agent_ok": true,
       "ci_ok": true
     },
     {
