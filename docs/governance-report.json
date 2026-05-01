@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-05-01T15:50:38.879849+00:00",
+  "generated_at": "2026-05-01T15:57:41.940012+00:00",
   "date": "2026-05-01",
-  "avg_score": 90.2,
+  "avg_score": 96.4,
   "governance_level": 5,
   "governance_level_name": "Optimizing",
   "repo_count": 22,
-  "fully_compliant": 17,
+  "fully_compliant": 20,
   "mostly_compliant": 2,
-  "non_compliant": 3,
+  "non_compliant": 0,
   "top_gaps": [
-    "Nightly agent configured",
-    "ADR directory present",
     "CHANGELOG updated in last 30 days",
-    "CONTRIBUTING.md present",
-    "LICENSE present"
+    "CI workflow configured",
+    "Nightly agent configured",
+    "Test suite present"
   ],
   "repos": [
     {
@@ -136,6 +135,33 @@
       "failed": []
     },
     {
+      "repo": "vibe-check-cli",
+      "score": 90,
+      "level": "fully-compliant",
+      "passed": 7,
+      "failed": [
+        "CHANGELOG updated in last 30 days"
+      ]
+    },
+    {
+      "repo": "code-roast",
+      "score": 90,
+      "level": "fully-compliant",
+      "passed": 7,
+      "failed": [
+        "CHANGELOG updated in last 30 days"
+      ]
+    },
+    {
+      "repo": "sports-analytics-for-engineers",
+      "score": 90,
+      "level": "fully-compliant",
+      "passed": 7,
+      "failed": [
+        "CHANGELOG updated in last 30 days"
+      ]
+    },
+    {
       "repo": "fintech-platform-reference",
       "score": 80,
       "level": "mostly-compliant",
@@ -152,45 +178,6 @@
       "failed": [
         "CI workflow configured",
         "Nightly agent configured"
-      ]
-    },
-    {
-      "repo": "vibe-check-cli",
-      "score": 45,
-      "level": "non-compliant",
-      "passed": 3,
-      "failed": [
-        "ADR directory present",
-        "CHANGELOG updated in last 30 days",
-        "CONTRIBUTING.md present",
-        "Nightly agent configured",
-        "LICENSE present"
-      ]
-    },
-    {
-      "repo": "code-roast",
-      "score": 45,
-      "level": "non-compliant",
-      "passed": 3,
-      "failed": [
-        "ADR directory present",
-        "CHANGELOG updated in last 30 days",
-        "CONTRIBUTING.md present",
-        "Nightly agent configured",
-        "LICENSE present"
-      ]
-    },
-    {
-      "repo": "sports-analytics-for-engineers",
-      "score": 45,
-      "level": "non-compliant",
-      "passed": 3,
-      "failed": [
-        "ADR directory present",
-        "CHANGELOG updated in last 30 days",
-        "CONTRIBUTING.md present",
-        "Nightly agent configured",
-        "LICENSE present"
       ]
     }
   ]
