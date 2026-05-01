@@ -1,4 +1,4 @@
-"""Nightly health check — monitors all 15 portfolio repos."""
+"""Nightly health check â€” monitors all 15 portfolio repos."""
 
 from __future__ import annotations
 
@@ -48,7 +48,7 @@ def run_health_check() -> None:
     out = REPO_ROOT / "docs" / "health-report.json"
     out.parent.mkdir(exist_ok=True)
     out.write_text(json.dumps(report, indent=2))
-    print(f"[conductor] Health check complete — score: {platform.platform_score}/100, failures: {len(platform.failures)}")
+    print(f"[conductor] Health check complete â€” score: {platform.platform_score}/100, failures: {len(platform.failures)}")
     if issues_opened:
         print(f"[conductor] Opened {issues_opened} failure issue(s)")
 
@@ -62,6 +62,11 @@ def refresh_changelog() -> None:
     if today not in content:
         content = content.replace("## [Unreleased]", f"## [Unreleased]\n\n_Last checked: {today}_", 1)
         changelog.write_text(content)
+
+
+def run_governance() -> None:
+    import subprocess, sys
+    subprocess.run([sys.executable, str(Path(__file__).parent / 'governance_report.py')])
 
 
 if __name__ == "__main__":

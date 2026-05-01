@@ -1,0 +1,197 @@
+{
+  "generated_at": "2026-05-01T15:50:38.879849+00:00",
+  "date": "2026-05-01",
+  "avg_score": 90.2,
+  "governance_level": 5,
+  "governance_level_name": "Optimizing",
+  "repo_count": 22,
+  "fully_compliant": 17,
+  "mostly_compliant": 2,
+  "non_compliant": 3,
+  "top_gaps": [
+    "Nightly agent configured",
+    "ADR directory present",
+    "CHANGELOG updated in last 30 days",
+    "CONTRIBUTING.md present",
+    "LICENSE present"
+  ],
+  "repos": [
+    {
+      "repo": "pr-autopilot",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "runbook-gen",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "mcp-incident-intel",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "mcp-compliance-grc",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "mcp-developer-portal",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "TeamHealthRadar",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "PlatformSLOBoard",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "TechDebtLedger",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "IncidentPilot",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "DataPipelineAgent",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "BoardroomBrief",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "innersource-scorecard",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "service-catalog-sync",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "platform-maturity-model",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "orbit-platform",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "cab-automation",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "platform-conductor",
+      "score": 100,
+      "level": "fully-compliant",
+      "passed": 8,
+      "failed": []
+    },
+    {
+      "repo": "fintech-platform-reference",
+      "score": 80,
+      "level": "mostly-compliant",
+      "passed": 7,
+      "failed": [
+        "Test suite present"
+      ]
+    },
+    {
+      "repo": "repoforge",
+      "score": 70,
+      "level": "mostly-compliant",
+      "passed": 6,
+      "failed": [
+        "CI workflow configured",
+        "Nightly agent configured"
+      ]
+    },
+    {
+      "repo": "vibe-check-cli",
+      "score": 45,
+      "level": "non-compliant",
+      "passed": 3,
+      "failed": [
+        "ADR directory present",
+        "CHANGELOG updated in last 30 days",
+        "CONTRIBUTING.md present",
+        "Nightly agent configured",
+        "LICENSE present"
+      ]
+    },
+    {
+      "repo": "code-roast",
+      "score": 45,
+      "level": "non-compliant",
+      "passed": 3,
+      "failed": [
+        "ADR directory present",
+        "CHANGELOG updated in last 30 days",
+        "CONTRIBUTING.md present",
+        "Nightly agent configured",
+        "LICENSE present"
+      ]
+    },
+    {
+      "repo": "sports-analytics-for-engineers",
+      "score": 45,
+      "level": "non-compliant",
+      "passed": 3,
+      "failed": [
+        "ADR directory present",
+        "CHANGELOG updated in last 30 days",
+        "CONTRIBUTING.md present",
+        "Nightly agent configured",
+        "LICENSE present"
+      ]
+    }
+  ]
+}
