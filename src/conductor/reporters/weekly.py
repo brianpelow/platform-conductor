@@ -1,4 +1,4 @@
-﻿"""Weekly platform health report generator."""
+"""Weekly platform health report generator."""
 
 from __future__ import annotations
 
@@ -37,8 +37,8 @@ def generate_weekly_narrative(health: PlatformHealth, config: ConductorConfig) -
 
 def _ai_narrative(health: PlatformHealth, config: ConductorConfig) -> str:
     try:
-        import anthropic
-        client = anthropic.Anthropic(api_key=config.anthropic_api_key)
+        from openai import OpenAI
+        client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=config.openrouter_api_key)
         prompt = f"""You are a platform engineering lead writing a weekly state-of-the-platform summary for a {config.industry} engineering organization.
 
 Platform health this week:
@@ -55,12 +55,12 @@ Write a concise 3-paragraph weekly summary:
 
 Be direct and data-driven. Write for an engineering audience."""
 
-        message = client.messages.create(
-            model="claude-sonnet-4-20250514",
+        message = client.chat.completions.create(
+            model="meta-llama/llama-3.1-8b-instruct:free",
             max_tokens=500,
             messages=[{"role": "user", "content": prompt}],
         )
-        return message.content[0].text
+        return message.choices[0].message.content
     except Exception:
         return _template_narrative(health)
 

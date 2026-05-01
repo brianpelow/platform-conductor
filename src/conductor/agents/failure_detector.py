@@ -1,4 +1,4 @@
-"""Failure detector — opens GitHub issues when agent runs fail."""
+"""Failure detector â€” opens GitHub issues when agent runs fail."""
 
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ def open_failure_issue(repo: str, health: RepoHealth, config: ConductorConfig) -
         print(f"[mock] Would open issue on {repo}: agent run failed")
         return True
     try:
-        title = f"[platform-conductor] Nightly agent failure detected — {repo}"
+        title = f"[platform-conductor] Nightly agent failure detected â€” {repo}"
         body = f"""## Nightly agent failure
 
 The platform-conductor detected that the nightly agent workflow failed or did not run in the last 26 hours.

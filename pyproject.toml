@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "platform-conductor"
 version = "0.1.0"
-description = "Meta-orchestrator for the brianpelow platform — coordinates agents, detects failures, and publishes weekly health summaries"
+description = "Meta-orchestrator for the brianpelow platform â€” coordinates agents, detects failures, and publishes weekly health summaries"
 readme = "README.md"
 license = { text = "Apache-2.0" }
 requires-python = ">=3.12"
@@ -17,7 +17,7 @@ dependencies = [
     "rich>=13.7.0",
     "typer>=0.12.0",
     "pyyaml>=6.0.1",
-    "anthropic>=0.28.0",
+    "openai>=1.30.0",
 ]
 
 [project.scripts]

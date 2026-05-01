@@ -21,7 +21,7 @@ class ConductorConfig(BaseModel):
     """Runtime configuration for platform-conductor."""
 
     github_token: str = Field("", description="GitHub API token")
-    anthropic_api_key: str = Field("", description="Anthropic API key")
+    openrouter_api_key: str = Field("", description="OpenRouter API key")
     org: str = Field(GITHUB_ORG, description="GitHub organization")
     repos: list[str] = Field(default_factory=lambda: PORTFOLIO_REPOS)
     industry: str = Field("fintech", description="Industry context")
@@ -30,7 +30,7 @@ class ConductorConfig(BaseModel):
     def from_env(cls) -> "ConductorConfig":
         return cls(
             github_token=os.environ.get("GITHUB_TOKEN", ""),
-            anthropic_api_key=os.environ.get("ANTHROPIC_API_KEY", ""),
+            openrouter_api_key=os.environ.get("OPENROUTER_API_KEY", ""),
         )
 
     @property
@@ -39,4 +39,4 @@ class ConductorConfig(BaseModel):
 
     @property
     def has_api_key(self) -> bool:
-        return bool(self.anthropic_api_key)
+        return bool(self.openrouter_api_key)
