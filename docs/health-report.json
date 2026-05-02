@@ -1,11 +1,24 @@
 {
-  "generated_at": "2026-05-01T05:57:43.543168+00:00",
-  "date": "2026-05-01",
-  "platform_score": 97,
-  "healthy_repos": 15,
-  "failed_repos": 0,
+  "generated_at": "2026-05-02T05:27:11.070146+00:00",
+  "date": "2026-05-02",
+  "platform_score": 73,
+  "healthy_repos": 3,
+  "failed_repos": 12,
   "total_repos": 15,
-  "failures": [],
+  "failures": [
+    "pr-autopilot",
+    "runbook-gen",
+    "mcp-compliance-grc",
+    "TeamHealthRadar",
+    "PlatformSLOBoard",
+    "TechDebtLedger",
+    "IncidentPilot",
+    "DataPipelineAgent",
+    "BoardroomBrief",
+    "innersource-scorecard",
+    "service-catalog-sync",
+    "platform-maturity-model"
+  ],
   "issues_opened": 0,
   "repos": [
     {
@@ -17,17 +30,17 @@
     },
     {
       "repo": "pr-autopilot",
-      "score": 100,
-      "status": "healthy",
+      "score": 70,
+      "status": "degraded",
       "agent_ok": true,
-      "ci_ok": true
+      "ci_ok": false
     },
     {
       "repo": "runbook-gen",
-      "score": 100,
-      "status": "healthy",
+      "score": 70,
+      "status": "degraded",
       "agent_ok": true,
-      "ci_ok": true
+      "ci_ok": false
     },
     {
       "repo": "mcp-incident-intel",
@@ -38,10 +51,10 @@
     },
     {
       "repo": "mcp-compliance-grc",
-      "score": 100,
-      "status": "healthy",
+      "score": 70,
+      "status": "degraded",
       "agent_ok": true,
-      "ci_ok": true
+      "ci_ok": false
     },
     {
       "repo": "mcp-developer-portal",
@@ -52,66 +65,66 @@
     },
     {
       "repo": "TeamHealthRadar",
-      "score": 100,
-      "status": "healthy",
+      "score": 70,
+      "status": "degraded",
       "agent_ok": true,
-      "ci_ok": true
+      "ci_ok": false
     },
     {
       "repo": "PlatformSLOBoard",
-      "score": 100,
-      "status": "healthy",
+      "score": 70,
+      "status": "degraded",
       "agent_ok": true,
-      "ci_ok": true
+      "ci_ok": false
     },
     {
       "repo": "TechDebtLedger",
-      "score": 100,
-      "status": "healthy",
+      "score": 70,
+      "status": "degraded",
       "agent_ok": true,
-      "ci_ok": true
+      "ci_ok": false
     },
     {
       "repo": "IncidentPilot",
-      "score": 100,
-      "status": "healthy",
+      "score": 70,
+      "status": "degraded",
       "agent_ok": true,
-      "ci_ok": true
+      "ci_ok": false
     },
     {
       "repo": "DataPipelineAgent",
-      "score": 100,
-      "status": "healthy",
+      "score": 70,
+      "status": "degraded",
       "agent_ok": true,
-      "ci_ok": true
+      "ci_ok": false
     },
     {
       "repo": "BoardroomBrief",
-      "score": 80,
-      "status": "healthy",
+      "score": 50,
+      "status": "degraded",
       "agent_ok": false,
-      "ci_ok": true
+      "ci_ok": false
     },
     {
       "repo": "innersource-scorecard",
-      "score": 100,
-      "status": "healthy",
+      "score": 70,
+      "status": "degraded",
       "agent_ok": true,
-      "ci_ok": true
+      "ci_ok": false
     },
     {
       "repo": "service-catalog-sync",
-      "score": 100,
-      "status": "healthy",
+      "score": 70,
+      "status": "degraded",
       "agent_ok": true,
-      "ci_ok": true
+      "ci_ok": false
     },
     {
       "repo": "platform-maturity-model",
-      "score": 100,
-      "status": "healthy",
+      "score": 70,
+      "status": "degraded",
       "agent_ok": true,
-      "ci_ok": true
+      "ci_ok": false
     }
   ]
 }
