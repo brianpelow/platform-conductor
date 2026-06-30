@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+_Last checked: 2026-06-30_
+
 _Last checked: 2026-06-29_
 
 _Last checked: 2026-06-28_
